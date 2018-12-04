@@ -1,0 +1,102 @@
+_void _main _lp _rp
+_lcb
+
+	_int fff _eq 0, ac,fff, ab _eq 2;
+	_int x,y,z,aa _eq 3,a _eq 10, aaa,abcd _eq 1;
+	
+	abd _eq 0 ;
+	ab _eq 4 _add 2 ; 
+
+	_pr "This is outside statement";
+	_pr ab;
+	_pr "This is my compiler";
+
+	_int pp _eq 0;
+	pp _eq 10;	
+
+	y _eq 20 _sub 10 _mult 2 ;
+	z _eq ab ;
+	
+	pp _eq z _sub 2 ;
+	
+	_for _lp fff _eq 0 , fff _le 10, fff _aa _rp 
+	_lcb
+		_pr "nayan!";
+		
+			
+	_rcb
+
+	
+	x _eq 5;	
+	ab _eq 10; 
+	
+	_if ab _gt 20 _then:
+	_lcb
+		_pr "nayan!";
+		_pr a;
+	_rcb
+	
+	_elsif x _gt 1 _then:
+	_lcb
+		_pr x;
+		_pr "Elseif";
+	_rcb
+	
+	_else
+	_lcb
+		_pr "Else";
+	_rcb
+
+	aaa _eq 10;
+	
+	_if aaa _gt 3 _then:
+	_lcb
+		_if aa _gt 2 _then:
+		_lcb
+			_pr fff;
+			_pr "bosssseeeP!";
+			
+		_rcb
+		
+		_else 
+		_lcb
+			_pr aa;
+			_pr "PohhhheeeP!";
+			
+		_rcb
+		
+	_rcb
+
+	_else
+	_lcb
+		_pr z ;	
+		_pr "tosshh";	
+	_rcb
+
+	
+
+	_pr ab;
+
+	aaa _eq 1;
+	a _eq 30 ;
+
+	_switch _lp aaa _rp
+	_lcb
+		_case 0 : 
+			_pr a;
+			_break;
+
+		_case 1 : 
+			_pr "nayan";
+			_break;
+			
+		_case 3 : 
+			_pr a;
+			_break;	
+
+		_default :
+			_pr x;
+			
+	_rcb
+	
+_rcb
